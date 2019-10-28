@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>jpa.domain.Test</OriginalElement>
+  <nodes>
+    <node x="1989.25" y="168.0">jpa.domain.vo.PreferentialSettingVO4FullSales</node>
+    <node x="1622.5059523809525" y="79.0">jpa.domain.Promotion</node>
+    <node x="1823.8809523809525" y="79.0">jpa.domain.vo.PreferentialSettingVO</node>
+    <node x="2251.25" y="168.0">jpa.domain.vo.PreferentialSettingVO4Coupon</node>
+    <node x="394.15674603174625" y="79.0">jpa.domain.vo.CollectionSettingVO</node>
+    <node x="1454.25" y="247.0">jpa.domain.Coupon4Consume</node>
+    <node x="1373.5" y="79.0">jpa.domain.vo.TimeSettingVO</node>
+    <node x="1621.5059523809525" y="168.0">jpa.domain.SpecilPrice</node>
+    <node x="1621.5059523809525" y="0.0">jpa.domain.BaseEntity</node>
+    <node x="2278.25" y="247.0">jpa.domain.vo.PreferentialSettingVO4FullSales4FixAmount</node>
+    <node x="1962.25" y="247.0">jpa.domain.vo.PreferentialSettingVO4FullSales4Deduce</node>
+    <node x="1755.5059523809525" y="168.0">jpa.domain.FullSales</node>
+    <node x="0.0" y="321.0">jpa.domain.ClientCoupon</node>
+    <node x="177.0" y="321.0">jpa.domain.Product</node>
+    <node x="1095.0" y="168.0">jpa.domain.vo.AvailableCollectionVO4RegistriedUser</node>
+    <node x="1092.5198412698414" y="79.0">jpa.domain.vo.AvailableCollectionVO</node>
+    <node x="836.0" y="168.0">jpa.domain.vo.AvailableCollectionVO4Member</node>
+    <node x="225.0" y="168.0">jpa.domain.vo.CollectionSettingVO4BackGroundProvide</node>
+    <node x="1268.25" y="247.0">jpa.domain.Coupon4Transport</node>
+    <node x="1395.0" y="168.0">jpa.domain.Coupon</node>
+    <node x="0.0" y="168.0">jpa.domain.vo.AvailableCollectionVO4All</node>
+    <node x="548.0" y="168.0">jpa.domain.vo.CollectionSettingVO4FrontendIssue</node>
+    <node x="1637.25" y="247.0">jpa.domain.vo.PreferentialSettingVO4FullSales4Discount</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="jpa.domain.vo.PreferentialSettingVO4FullSales4Deduce" target="jpa.domain.vo.PreferentialSettingVO4FullSales">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="jpa.domain.Promotion" target="jpa.domain.BaseEntity">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="jpa.domain.Coupon4Transport" target="jpa.domain.Coupon">
+      <point x="0.0" y="-14.5" />
+      <point x="1351.25" y="222.0" />
+      <point x="1419.25" y="222.0" />
+      <point x="-24.25" y="14.5" />
+    </edge>
+    <edge source="jpa.domain.SpecilPrice" target="jpa.domain.Promotion">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="jpa.domain.Coupon" target="jpa.domain.vo.TimeSettingVO">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="jpa.domain.Coupon" target="jpa.domain.Promotion">
+      <point x="19.40000000000009" y="-14.5" />
+      <point x="1462.9" y="128.0" />
+      <point x="1641.172619047619" y="128.0" />
+      <point x="-37.33333333333337" y="14.5" />
+    </edge>
+    <edge source="jpa.domain.Coupon" target="jpa.domain.vo.AvailableCollectionVO">
+      <point x="-19.40000000000009" y="-14.5" />
+      <point x="1424.1" y="128.0" />
+      <point x="1244.1865079365082" y="128.0" />
+      <point x="60.66666666666674" y="14.5" />
+    </edge>
+    <edge source="jpa.domain.vo.AvailableCollectionVO4RegistriedUser" target="jpa.domain.vo.AvailableCollectionVO">
+      <point x="0.0" y="-14.5" />
+      <point x="1235.0" y="148.0" />
+      <point x="1183.5198412698414" y="148.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="jpa.domain.FullSales" target="jpa.domain.vo.PreferentialSettingVO">
+      <point x="25.25" y="-14.5" />
+      <point x="1831.2559523809525" y="148.0" />
+      <point x="1891.7559523809525" y="148.0" />
+      <point x="-22.625" y="14.5" />
+    </edge>
+    <edge source="jpa.domain.vo.AvailableCollectionVO4All" target="jpa.domain.vo.CollectionSettingVO">
+      <point x="0.0" y="-14.5" />
+      <point x="102.5" y="138.0" />
+      <point x="415.65674603174625" y="138.0" />
+      <point x="-64.5" y="14.5" />
+    </edge>
+    <edge source="jpa.domain.vo.PreferentialSettingVO4FullSales" target="jpa.domain.vo.PreferentialSettingVO">
+      <point x="0.0" y="-14.5" />
+      <point x="2110.25" y="148.0" />
+      <point x="1937.0059523809525" y="148.0" />
+      <point x="22.625" y="14.5" />
+    </edge>
+    <edge source="jpa.domain.Coupon4Consume" target="jpa.domain.Coupon">
+      <point x="0.0" y="-14.5" />
+      <point x="1535.75" y="222.0" />
+      <point x="1467.75" y="222.0" />
+      <point x="24.25" y="14.5" />
+    </edge>
+    <edge source="jpa.domain.Coupon" target="jpa.domain.vo.CollectionSettingVO">
+      <point x="-38.799999999999955" y="-14.5" />
+      <point x="1404.7" y="138.0" />
+      <point x="544.6567460317463" y="138.0" />
+      <point x="64.5" y="14.5" />
+    </edge>
+    <edge source="jpa.domain.vo.CollectionSettingVO4FrontendIssue" target="jpa.domain.vo.CollectionSettingVO">
+      <point x="0.0" y="-14.5" />
+      <point x="682.0" y="148.0" />
+      <point x="501.65674603174625" y="148.0" />
+      <point x="21.5" y="14.5" />
+    </edge>
+    <edge source="jpa.domain.vo.PreferentialSettingVO4FullSales4Discount" target="jpa.domain.vo.PreferentialSettingVO4FullSales">
+      <point x="0.0" y="-14.5" />
+      <point x="1789.75" y="222.0" />
+      <point x="2029.5833333333333" y="222.0" />
+      <point x="-80.66666666666669" y="14.5" />
+    </edge>
+    <edge source="jpa.domain.vo.PreferentialSettingVO4Coupon" target="jpa.domain.vo.PreferentialSettingVO">
+      <point x="0.0" y="-14.5" />
+      <point x="2370.25" y="138.0" />
+      <point x="1982.2559523809525" y="138.0" />
+      <point x="67.875" y="14.5" />
+    </edge>
+    <edge source="jpa.domain.Coupon" target="jpa.domain.vo.PreferentialSettingVO">
+      <point x="38.799999999999955" y="-14.5" />
+      <point x="1482.3" y="138.0" />
+      <point x="1846.5059523809525" y="138.0" />
+      <point x="-67.875" y="14.5" />
+    </edge>
+    <edge source="jpa.domain.vo.PreferentialSettingVO4FullSales4FixAmount" target="jpa.domain.vo.PreferentialSettingVO4FullSales">
+      <point x="0.0" y="-14.5" />
+      <point x="2436.25" y="222.0" />
+      <point x="2190.916666666667" y="222.0" />
+      <point x="80.66666666666674" y="14.5" />
+    </edge>
+    <edge source="jpa.domain.FullSales" target="jpa.domain.Promotion">
+      <point x="-25.25" y="-14.5" />
+      <point x="1780.7559523809525" y="128.0" />
+      <point x="1715.8392857142858" y="128.0" />
+      <point x="37.33333333333337" y="14.5" />
+    </edge>
+    <edge source="jpa.domain.vo.AvailableCollectionVO4Member" target="jpa.domain.vo.AvailableCollectionVO">
+      <point x="0.0" y="-14.5" />
+      <point x="955.5" y="148.0" />
+      <point x="1122.8531746031747" y="148.0" />
+      <point x="-60.66666666666674" y="14.5" />
+    </edge>
+    <edge source="jpa.domain.vo.CollectionSettingVO4BackGroundProvide" target="jpa.domain.vo.CollectionSettingVO">
+      <point x="0.0" y="-14.5" />
+      <point x="376.5" y="148.0" />
+      <point x="458.65674603174625" y="148.0" />
+      <point x="-21.5" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.119123438781964" x="1275.2472785745308" y="110.29622683254019" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/OA/OA.iml" filepath="$PROJECT_DIR$/OA/OA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ata-ops-common/ata-ops-common.iml" filepath="$PROJECT_DIR$/ata-ops-common/ata-ops-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ata-ops-strategy/ata-ops-strategy.iml" filepath="$PROJECT_DIR$/ata-ops-strategy/ata-ops-strategy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ata-ops-table/ata-ops-table.iml" filepath="$PROJECT_DIR$/ata-ops-table/ata-ops-table.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ata-ops-upms-refactor/ata-ops-upms-refactor.iml" filepath="$PROJECT_DIR$/ata-ops-upms-refactor/ata-ops-upms-refactor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ata-pms-backup/ata-pms-backup.iml" filepath="$PROJECT_DIR$/ata-pms-backup/ata-pms-backup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crm-openApi/crm-openApi.iml" filepath="$PROJECT_DIR$/crm-openApi/crm-openApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/initial-value-generator/initial-value-generator.iml" filepath="$PROJECT_DIR$/initial-value-generator/initial-value-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jpa-example.iml" filepath="$PROJECT_DIR$/jpa-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/many-to-many/many-to-many.iml" filepath="$PROJECT_DIR$/many-to-many/many-to-many.iml" />
+      <module fileurl="file://$PROJECT_DIR$/many-to-many-extra-columns/many-to-many-extra-columns.iml" filepath="$PROJECT_DIR$/many-to-many-extra-columns/many-to-many-extra-columns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/one-to-many/one-to-many.iml" filepath="$PROJECT_DIR$/one-to-many/one-to-many.iml" />
+      <module fileurl="file://$PROJECT_DIR$/one-to-one-foreignkey/one-to-one-foreignkey.iml" filepath="$PROJECT_DIR$/one-to-one-foreignkey/one-to-one-foreignkey.iml" />
+      <module fileurl="file://$PROJECT_DIR$/one-to-one-primarykey/one-to-one-primarykey.iml" filepath="$PROJECT_DIR$/one-to-one-primarykey/one-to-one-primarykey.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payment/payment.iml" filepath="$PROJECT_DIR$/payment/payment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payment4OORefactor/payment4OORefactor.iml" filepath="$PROJECT_DIR$/payment4OORefactor/payment4OORefactor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/promotion/promotion.iml" filepath="$PROJECT_DIR$/promotion/promotion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-permission/user-permission.iml" filepath="$PROJECT_DIR$/user-permission/user-permission.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-permission-allclass/user-permission-allclass.iml" filepath="$PROJECT_DIR$/user-permission-allclass/user-permission-allclass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-permission-join/user-permission-join.iml" filepath="$PROJECT_DIR$/user-permission-join/user-permission-join.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-permission-single/user-permission-single.iml" filepath="$PROJECT_DIR$/user-permission-single/user-permission-single.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-permission-value-object/user-permission-value-object.iml" filepath="$PROJECT_DIR$/user-permission-value-object/user-permission-value-object.iml" />
+    </modules>
+  </component>
+</project>

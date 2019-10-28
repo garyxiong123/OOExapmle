@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.yofish.platform</groupId>
+        <artifactId>sword-parent</artifactId>
+        <version>1.2.0.RELEASE</version>
+    </parent>
+    <groupId>cn.merryyou</groupId>
+    <artifactId>jpa-example</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>one-to-one-foreignkey</module>
+        <module>one-to-one-primarykey</module>
+        <module>one-to-many</module>
+        <module>many-to-many</module>
+        <module>many-to-many-extra-columns</module>
+        <module>initial-value-generator</module>
+        <module>user-permission</module>
+        <module>user-permission-single</module>
+        <module>user-permission-join</module>
+        <module>user-permission-allclass</module>
+        <module>user-permission-value-object</module>
+        <module>ata-ops-table</module>
+        <module>ata-pms-backup</module>
+        <module>ata-ops-strategy</module>
+        <module>ata-ops-upms-refactor</module>
+        <module>ata-ops-common</module>
+        <module>payment</module>
+        <module>payment4OORefactor</module>
+        <module>promotion</module>
+        <module>crm-openApi</module>
+        <module>OA</module>
+
+
+    </modules>
+    <packaging>pom</packaging>
+
+
+    <dependencyManagement>
+        <dependencies>
+            <!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-jpa -->
+            <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa -->
+            <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-starter-data-jpa</artifactId>-->
+            <!--<version>2.0.1.RELEASE</version>-->
+            <!--</dependency>-->
+            <!--&lt;!&ndash; https://mvnrepository.com/artifact/org.springframework.data/spring-data-jpa &ndash;&gt;-->
+            <!--<dependency>-->
+            <!--<groupId>org.springframework.data</groupId>-->
+            <!--<artifactId>spring-data-jpa</artifactId>-->
+            <!--<version>2.0.6.RELEASE</version>-->
+            <!--</dependency>-->
+
+
+            <!--<dependency>-->
+            <!--<groupId>cn.merryyou</groupId>-->
+            <!--<artifactId>ata-ops-common</artifactId>-->
+            <!--<version>${project.version}</version>-->
+            <!--</dependency>-->
+            <dependency>
+                <groupId>io.spring.platform</groupId>
+                <artifactId>platform-bom</artifactId>
+                <version>Brussels-SR6</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>jpa.domain.AccountConfig</OriginalElement>
+  <nodes>
+    <node x="265.5" y="79.0">jpa.domain.AccountConfig</node>
+    <node x="0.0" y="0.0">lombok.Builder</node>
+    <node x="298.0" y="0.0">lombok.Data</node>
+    <node x="394.0" y="0.0">javax.persistence.Embeddable</node>
+    <node x="111.0" y="0.0">lombok.AllArgsConstructor</node>
+    <node x="537.0" y="0.0">lombok.NoArgsConstructor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="jpa.domain.AccountConfig" target="lombok.Builder">
+      <point x="-56.39999999999998" y="-14.5" />
+      <point x="279.6" y="59.0" />
+      <point x="45.5" y="59.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="jpa.domain.AccountConfig" target="lombok.Data">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="jpa.domain.AccountConfig" target="javax.persistence.Embeddable">
+      <point x="28.19999999999999" y="-14.5" />
+      <point x="364.2" y="49.0" />
+      <point x="455.5" y="49.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="jpa.domain.AccountConfig" target="lombok.AllArgsConstructor">
+      <point x="-28.19999999999999" y="-14.5" />
+      <point x="307.8" y="49.0" />
+      <point x="194.5" y="49.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="jpa.domain.AccountConfig" target="lombok.NoArgsConstructor">
+      <point x="56.39999999999998" y="-14.5" />
+      <point x="392.4" y="59.0" />
+      <point x="622.0" y="59.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9325997248968363" x="467.3473451327434" y="70.43289085545723" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

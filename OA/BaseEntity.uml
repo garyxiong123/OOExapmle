@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>jpa.domain.BaseEntity</OriginalElement>
+  <nodes>
+    <node x="244.24999999999997" y="0.0">jpa.domain.PaymentPeriod</node>
+    <node x="655.25" y="79.0">jpa.domain.PaymentType4UnitPrice</node>
+    <node x="121.99999999999994" y="158.0">jpa.domain.ContractItem4RealEstateFee</node>
+    <node x="0.0" y="158.0">jpa.domain.Contract</node>
+    <node x="430.25" y="79.0">jpa.domain.PaymentType4FixAmount</node>
+    <node x="577.0" y="158.0">jpa.domain.ContractItem4RentFee</node>
+    <node x="870.25" y="79.0">jpa.domain.PaymentType4ManualPrice</node>
+    <node x="363.0" y="158.0">jpa.domain.ContractItem4WaterFee</node>
+    <node x="577.25" y="0.0">jpa.domain.PaymentType</node>
+    <node x="282.25" y="79.0">jpa.domain.ContractItem</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="jpa.domain.ContractItem" target="jpa.domain.PaymentType">
+      <point x="32.0" y="-14.5" />
+      <point x="378.25" y="49.0" />
+      <point x="593.625" y="49.0" />
+      <point x="-49.125" y="14.5" />
+    </edge>
+    <edge source="jpa.domain.Contract" target="jpa.domain.ContractItem">
+      <point x="0.0" y="-14.5" />
+      <point x="51.0" y="128.0" />
+      <point x="298.25" y="128.0" />
+      <point x="-48.0" y="14.5" />
+    </edge>
+    <edge source="jpa.domain.ContractItem4RentFee" target="jpa.domain.ContractItem">
+      <point x="0.0" y="-14.5" />
+      <point x="669.5" y="128.0" />
+      <point x="394.25" y="128.0" />
+      <point x="48.0" y="14.5" />
+    </edge>
+    <edge source="jpa.domain.ContractItem4WaterFee" target="jpa.domain.ContractItem">
+      <point x="0.0" y="-14.5" />
+      <point x="460.0" y="138.0" />
+      <point x="362.25" y="138.0" />
+      <point x="16.0" y="14.5" />
+    </edge>
+    <edge source="jpa.domain.PaymentType4FixAmount" target="jpa.domain.PaymentType">
+      <point x="0.0" y="-14.5" />
+      <point x="532.75" y="59.0" />
+      <point x="626.375" y="59.0" />
+      <point x="-16.375" y="14.5" />
+    </edge>
+    <edge source="jpa.domain.PaymentType4UnitPrice" target="jpa.domain.PaymentType">
+      <point x="0.0" y="-14.5" />
+      <point x="752.75" y="59.0" />
+      <point x="659.125" y="59.0" />
+      <point x="16.375" y="14.5" />
+    </edge>
+    <edge source="jpa.domain.PaymentType4ManualPrice" target="jpa.domain.PaymentType">
+      <point x="0.0" y="-14.5" />
+      <point x="976.75" y="49.0" />
+      <point x="691.875" y="49.0" />
+      <point x="49.125" y="14.5" />
+    </edge>
+    <edge source="jpa.domain.ContractItem4RealEstateFee" target="jpa.domain.ContractItem">
+      <point x="0.0" y="-14.5" />
+      <point x="232.49999999999994" y="138.0" />
+      <point x="330.25" y="138.0" />
+      <point x="-16.0" y="14.5" />
+    </edge>
+    <edge source="jpa.domain.ContractItem" target="jpa.domain.PaymentPeriod">
+      <point x="-32.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="486.0" y="-16.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

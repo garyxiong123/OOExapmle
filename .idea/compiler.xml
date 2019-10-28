@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ata-ops-common" />
+        <module name="ata-ops-strategy" />
+        <module name="ata-ops-table" />
+        <module name="ata-ops-upms-refactor" />
+        <module name="ata-pms-backup" />
+        <module name="crm-openApi" />
+        <module name="initial-value-generator" />
+        <module name="many-to-many" />
+        <module name="many-to-many-extra-columns" />
+        <module name="OA" />
+        <module name="one-to-many" />
+        <module name="one-to-one-foreignkey" />
+        <module name="one-to-one-primarykey" />
+        <module name="payment" />
+        <module name="payment4OORefactor" />
+        <module name="promotion" />
+        <module name="user-permission" />
+        <module name="user-permission-allclass" />
+        <module name="user-permission-join" />
+        <module name="user-permission-single" />
+        <module name="user-permission-value-object" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ata-ops-common" target="1.8" />
+      <module name="ata-ops-strategy" target="1.8" />
+      <module name="ata-ops-table" target="1.8" />
+      <module name="ata-ops-upms-refactor" target="1.8" />
+      <module name="ata-ops-upms-refactor (1)" target="1.8" />
+      <module name="ata-pms-backup" target="1.8" />
+      <module name="crm-openApi" target="1.8" />
+      <module name="h2-webconsole" target="1.8" />
+      <module name="ibm-crud" target="1.8" />
+      <module name="initial-value-generator" target="1.8" />
+      <module name="jpa-example" target="1.8" />
+      <module name="many-to-many" target="1.8" />
+      <module name="many-to-many-extra-columns" target="1.8" />
+      <module name="OA" target="1.8" />
+      <module name="one-to-many" target="1.8" />
+      <module name="one-to-one-foreignkey" target="1.8" />
+      <module name="one-to-one-primarykey" target="1.8" />
+      <module name="one-to-one-primarykey-ss" target="1.8" />
+      <module name="payment" target="1.8" />
+      <module name="payment4OORefactor" target="1.8" />
+      <module name="promotion" target="1.8" />
+      <module name="user-permission" target="1.8" />
+      <module name="user-permission (1)" target="1.8" />
+      <module name="user-permission-allclass" target="1.8" />
+      <module name="user-permission-join" target="1.8" />
+      <module name="user-permission-per" target="1.8" />
+      <module name="user-permission-perc" target="1.8" />
+      <module name="user-permission-perclass" target="1.8" />
+      <module name="user-permission-single" target="1.8" />
+      <module name="user-permission-table-perClass" target="1.8" />
+      <module name="user-permission-table-perclass" target="1.8" />
+      <module name="user-permission-value-object" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

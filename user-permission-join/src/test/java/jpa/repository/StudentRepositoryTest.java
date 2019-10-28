@@ -1,0 +1,50 @@
+package jpa.repository;
+
+import jpa.domain.Role;
+import jpa.domain.Student;
+import jpa.domain.Student1;
+import jpa.domain.User;
+import lombok.extern.slf4j.Slf4j;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.annotation.Rollback;
+import org.springframework.test.context.junit4.SpringRunner;
+
+import java.util.Set;
+
+import static org.junit.Assert.*;
+
+/**
+ * @Author: xiongchengwei
+ * @Date: 2019/10/9 下午1:44
+ */
+@RunWith(SpringRunner.class)
+@SpringBootTest
+@Slf4j
+public class StudentRepositoryTest {
+    @Autowired
+    private StudentRepository studentRepository;
+
+    @Before
+    public void setUp() throws Exception {
+
+    }
+
+
+    @Rollback(false)
+    @Test
+    public void saveTest() throws Exception {
+
+        Student student = new Student("ss", "sd");
+        student.setEmail("502238410");
+        studentRepository.save(student);
+        Student1 student1 = new Student1("ss", "sd");
+        student.setEmail("502238410");
+        studentRepository.save(student);
+    }
+
+
+}
