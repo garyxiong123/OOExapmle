@@ -33,6 +33,7 @@
         <module>promotion</module>
         <module>crm-openApi</module>
         <module>OA</module>
+        <module>user-jpa-mybatis</module>
 
 
     </modules>

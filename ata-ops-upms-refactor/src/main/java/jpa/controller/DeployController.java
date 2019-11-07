@@ -5,7 +5,9 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import jpa.domain.deploy.DeployCommand;
 import jpa.dto.DeployCommandReqDto;
+import jpa.repository.deploy.DeployCommandRepository;
 import org.reflections.Reflections;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
@@ -25,7 +27,8 @@ import static jpa.bean.StrategyNumBean.getClassyByClassAndNumber;
 @RequestMapping("/deploy")
 public class DeployController {
     ThreadLocal<String> threadLocalTest = new ThreadLocal<>();
-
+    @Autowired
+    private DeployCommandRepository deployCommandRepository;
     @ApiOperation("发布)")
     @GetMapping("/test1")
     public String test1(String userName) {

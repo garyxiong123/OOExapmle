@@ -25,6 +25,7 @@
             <!--<artifactId>bazooka-deploy-api</artifactId>-->
             <!--<version>1.0.0.RELEASE</version>-->
         <!--</dependency>-->
+
         <dependency>
             <groupId>com.yofish.platform</groupId>
             <artifactId>ata-ops-common</artifactId>

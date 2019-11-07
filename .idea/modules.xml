@@ -19,6 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/payment/payment.iml" filepath="$PROJECT_DIR$/payment/payment.iml" />
       <module fileurl="file://$PROJECT_DIR$/payment4OORefactor/payment4OORefactor.iml" filepath="$PROJECT_DIR$/payment4OORefactor/payment4OORefactor.iml" />
       <module fileurl="file://$PROJECT_DIR$/promotion/promotion.iml" filepath="$PROJECT_DIR$/promotion/promotion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-jpa-mybatis/user-jpa-mybatis.iml" filepath="$PROJECT_DIR$/user-jpa-mybatis/user-jpa-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-permission/user-permission.iml" filepath="$PROJECT_DIR$/user-permission/user-permission.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-permission-allclass/user-permission-allclass.iml" filepath="$PROJECT_DIR$/user-permission-allclass/user-permission-allclass.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-permission-join/user-permission-join.iml" filepath="$PROJECT_DIR$/user-permission-join/user-permission-join.iml" />
