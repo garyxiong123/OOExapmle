@@ -19,10 +19,10 @@
       <module fileurl="file://$PROJECT_DIR$/payment/payment.iml" filepath="$PROJECT_DIR$/payment/payment.iml" />
       <module fileurl="file://$PROJECT_DIR$/payment4OORefactor/payment4OORefactor.iml" filepath="$PROJECT_DIR$/payment4OORefactor/payment4OORefactor.iml" />
       <module fileurl="file://$PROJECT_DIR$/promotion/promotion.iml" filepath="$PROJECT_DIR$/promotion/promotion.iml" />
-      <module fileurl="file://$PROJECT_DIR$/user-jpa-mybatis/user-jpa-mybatis.iml" filepath="$PROJECT_DIR$/user-jpa-mybatis/user-jpa-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-permission/user-permission.iml" filepath="$PROJECT_DIR$/user-permission/user-permission.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-permission-allclass/user-permission-allclass.iml" filepath="$PROJECT_DIR$/user-permission-allclass/user-permission-allclass.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-permission-join/user-permission-join.iml" filepath="$PROJECT_DIR$/user-permission-join/user-permission-join.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-permission-learn/user-permission-learn.iml" filepath="$PROJECT_DIR$/user-permission-learn/user-permission-learn.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-permission-single/user-permission-single.iml" filepath="$PROJECT_DIR$/user-permission-single/user-permission-single.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-permission-value-object/user-permission-value-object.iml" filepath="$PROJECT_DIR$/user-permission-value-object/user-permission-value-object.iml" />
     </modules>

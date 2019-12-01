@@ -18,6 +18,7 @@
       <set>
         <option value="$PROJECT_DIR$/h2-webconsole/pom.xml" />
         <option value="$PROJECT_DIR$/ibm-crud/pom.xml" />
+        <option value="$PROJECT_DIR$/user-jpa-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/user-permission-per/pom.xml" />
         <option value="$PROJECT_DIR$/user-permission-perclass/pom.xml" />
         <option value="$PROJECT_DIR$/user-permission-table-perClass/pom.xml" />

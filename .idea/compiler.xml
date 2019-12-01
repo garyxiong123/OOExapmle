@@ -22,10 +22,10 @@
         <module name="payment" />
         <module name="payment4OORefactor" />
         <module name="promotion" />
-        <module name="user-jpa-mybatis" />
         <module name="user-permission" />
         <module name="user-permission-allclass" />
         <module name="user-permission-join" />
+        <module name="user-permission-learn" />
         <module name="user-permission-single" />
         <module name="user-permission-value-object" />
       </profile>
@@ -57,6 +57,7 @@
       <module name="user-permission (1)" target="1.8" />
       <module name="user-permission-allclass" target="1.8" />
       <module name="user-permission-join" target="1.8" />
+      <module name="user-permission-learn" target="1.8" />
       <module name="user-permission-per" target="1.8" />
       <module name="user-permission-perc" target="1.8" />
       <module name="user-permission-perclass" target="1.8" />
