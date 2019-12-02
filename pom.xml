@@ -34,11 +34,14 @@
         <module>crm-openApi</module>
         <module>OA</module>
         <module>user-permission-learn</module>
+        <module>user-permission-relation-query</module>
+
         <!--<module>user-jpa-mybatis</module>-->
 
 
     </modules>
     <packaging>pom</packaging>
+
 
 
     <dependencyManagement>

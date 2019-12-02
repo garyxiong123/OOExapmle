@@ -1,6 +1,7 @@
 package jpa.repository;
 
-import jpa.domain.upms.User;
+import jpa.domain.Student;
+import jpa.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
@@ -9,8 +10,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
  * @author zlf
  * @since 1.0
  */
-public interface UserRepository extends JpaRepository<User, Long> {
-
-
+public interface StudentRepository extends JpaRepository<Student, Integer> {
 
 }

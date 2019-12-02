@@ -1,1 +1,17 @@
-# Created by .ignore support plugin (hsz.mobi)
+target/
+.classpath
+.project
+.settings/
+.svn/
+classes/
+lib/
+.externalToolBuilders/
+*.iml
+.idea/
+.ssd
+.compiled/
+bin/
+build/
+prd/
+.rebel.xml
+.jar

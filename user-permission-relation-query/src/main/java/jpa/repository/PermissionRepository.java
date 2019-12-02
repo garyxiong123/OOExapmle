@@ -1,7 +1,8 @@
 package jpa.repository;
 
-import jpa.domain.upms.User;
+import jpa.domain.Permission;
 import org.springframework.data.jpa.repository.JpaRepository;
+
 
 /**
  * Created on 2018/2/5.
@@ -9,8 +10,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
  * @author zlf
  * @since 1.0
  */
-public interface UserRepository extends JpaRepository<User, Long> {
-
+public interface PermissionRepository extends JpaRepository<Permission, Integer> {
 
 
 }
