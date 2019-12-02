@@ -27,7 +27,7 @@
         <!--</dependency>-->
         <dependency>
             <groupId>com.yofish.platform</groupId>
-            <artifactId>ata-ops-common</artifactId>
+            <artifactId>oo-common</artifactId>
             <version>1.0.0</version>
         </dependency>
         <dependency>

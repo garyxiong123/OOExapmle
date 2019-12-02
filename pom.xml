@@ -25,9 +25,9 @@
         <module>user-permission-value-object</module>
         <module>ata-ops-table</module>
         <module>ata-pms-backup</module>
-        <module>ata-ops-strategy</module>
+        <module>oo-strategy</module>
         <module>ata-ops-upms-refactor</module>
-        <module>ata-ops-common</module>
+        <module>oo-common</module>
         <module>payment</module>
         <module>payment4OORefactor</module>
         <module>promotion</module>
@@ -63,7 +63,7 @@
 
             <!--<dependency>-->
             <!--<groupId>cn.merryyou</groupId>-->
-            <!--<artifactId>ata-ops-common</artifactId>-->
+            <!--<artifactId>oo-common</artifactId>-->
             <!--<version>${project.version}</version>-->
             <!--</dependency>-->
             <dependency>
