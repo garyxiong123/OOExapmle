@@ -24,7 +24,6 @@
         <module>user-permission-allclass</module>
         <module>user-permission-value-object</module>
         <module>ata-ops-table</module>
-        <module>ata-pms-backup</module>
         <module>oo-strategy</module>
         <module>ata-ops-upms-refactor</module>
         <module>oo-common</module>
