@@ -18,13 +18,6 @@
     </properties>
 
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-jpa -->
-
-        <!--<dependency>-->
-            <!--<groupId>net.atayun.bazooka</groupId>-->
-            <!--<artifactId>bazooka-deploy-api</artifactId>-->
-            <!--<version>1.0.0.RELEASE</version>-->
-        <!--</dependency>-->
 
         <dependency>
             <groupId>com.yofish.platform</groupId>
@@ -34,6 +27,12 @@
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger-ui</artifactId>
+            <exclusions>
+                <exclusion>
+                    <artifactId>javassist</artifactId>
+                    <groupId>org.javassist</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>io.springfox</groupId>

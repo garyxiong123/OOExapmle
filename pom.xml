@@ -3,11 +3,11 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <parent>
-        <groupId>com.yofish.platform</groupId>
-        <artifactId>sword-parent</artifactId>
-        <version>1.2.0.RELEASE</version>
-    </parent>
+    <!--<parent>-->
+        <!--<groupId>com.yofish.platform</groupId>-->
+        <!--<artifactId>sword-parent</artifactId>-->
+        <!--<version>1.2.0.RELEASE</version>-->
+    <!--</parent>-->
     <groupId>cn.merryyou</groupId>
     <artifactId>jpa-example</artifactId>
     <version>1.0-SNAPSHOT</version>
@@ -37,34 +37,24 @@
 
         <!--<module>user-jpa-mybatis</module>-->
 
-
     </modules>
     <packaging>pom</packaging>
-
-
+<dependencies>
+    <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-core</artifactId>
+        <version>2.10.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+    <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-api</artifactId>
+        <version>2.10.0</version>
+    </dependency>
+</dependencies>
 
     <dependencyManagement>
         <dependencies>
-            <!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-jpa -->
-            <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa -->
-            <!--<dependency>-->
-            <!--<groupId>org.springframework.boot</groupId>-->
-            <!--<artifactId>spring-boot-starter-data-jpa</artifactId>-->
-            <!--<version>2.0.1.RELEASE</version>-->
-            <!--</dependency>-->
-            <!--&lt;!&ndash; https://mvnrepository.com/artifact/org.springframework.data/spring-data-jpa &ndash;&gt;-->
-            <!--<dependency>-->
-            <!--<groupId>org.springframework.data</groupId>-->
-            <!--<artifactId>spring-data-jpa</artifactId>-->
-            <!--<version>2.0.6.RELEASE</version>-->
-            <!--</dependency>-->
-
-
-            <!--<dependency>-->
-            <!--<groupId>cn.merryyou</groupId>-->
-            <!--<artifactId>oo-common</artifactId>-->
-            <!--<version>${project.version}</version>-->
-            <!--</dependency>-->
             <dependency>
                 <groupId>io.spring.platform</groupId>
                 <artifactId>platform-bom</artifactId>

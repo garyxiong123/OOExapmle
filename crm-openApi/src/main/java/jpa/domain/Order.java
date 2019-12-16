@@ -1,7 +1,6 @@
 package jpa.domain;
 
 import lombok.*;
-import org.apache.ibatis.annotations.TypeDiscriminator;
 
 import javax.persistence.DiscriminatorColumn;
 import javax.persistence.DiscriminatorType;

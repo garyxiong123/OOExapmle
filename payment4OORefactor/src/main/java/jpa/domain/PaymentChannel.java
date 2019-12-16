@@ -10,9 +10,8 @@ import javax.persistence.*;
  * @Author: xiongchengwei
  * @Date: 2019/10/21 下午3:02
  */
-@Builder
+
 @NoArgsConstructor
-@AllArgsConstructor
 @Setter
 @Getter
 @Entity
@@ -30,5 +29,9 @@ public class PaymentChannel extends BaseEntity {
         paymentStrategy.executePay(payment);
     }
 
-
+    public PaymentChannel(PaymentOrg paymentOrg, String code, PaymentStrategy paymentStrategy) {
+        this.paymentOrg = paymentOrg;
+        this.code = code;
+        this.paymentStrategy = paymentStrategy;
+    }
 }

@@ -65,7 +65,8 @@ public class PaymentRepositoryTest {
 
         PaymentOrgConfig paymentOrgConfig = PaymentOrgConfig.builder().billFilePath("ss").notifyUrl("notifyUrl").paramMap(paramMap).paymentClientCreateStrategy(getBeanByClass4Context(PaymentClientCreateStrategy4Alipay.class)).build();
         paymentOrg.setPaymentOrgConfig(paymentOrgConfig);
-        PaymentChannel paymentChannel = PaymentChannel.builder().code(paymentChannelCode).paymentStrategy(new PaymentStrategy4AlipayApp()).paymentOrg(paymentOrg).build();
+        PaymentChannel paymentChannel = null;
+//                PaymentChannel.builder().code(paymentChannelCode).paymentStrategy(new PaymentStrategy4AlipayApp()).paymentOrg(paymentOrg).build();
 
         paymentChannelRepository.save(paymentChannel);
         return paymentChannel;
