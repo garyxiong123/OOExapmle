@@ -41,6 +41,7 @@ public class UserRepositoryTest {
     public void findAllTest() {
         List<User> users = userRepository.findAll();
         System.out.println(users);
+
     }
 
     private Set<Role> createRoles() {
