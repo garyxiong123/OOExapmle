@@ -34,6 +34,9 @@
         <module>OA</module>
         <module>user-permission-learn</module>
         <module>user-permission-relation-query</module>
+        <module>user-permission-cascade-detach</module>
+        <module>user-permission-cascade-persistent</module>
+
 
         <!--<module>user-jpa-mybatis</module>-->
 
