@@ -18,9 +18,11 @@ package jpa.domain;
 import lombok.*;
 
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
- * @author pqq
+ * @author xiongchengwei
  * @version v1.0
  * @date 2019年6月27日 10:00:00
  * @work 用户
@@ -31,31 +33,26 @@ import javax.persistence.*;
  */
 
 
-@NoArgsConstructor
-@AllArgsConstructor
 @Data
 @Entity
-@Builder
-@Table(name = "user1")
-public class User {
+@Table(name = "animal")
+@Inheritance(strategy = InheritanceType.JOINED)
+@DiscriminatorColumn(name = "DISCRIMINATOR", discriminatorType = DiscriminatorType.STRING, length = 30)
+public abstract class Animal extends BaseEntity {
 
     /**
      * 因为TABLE_PER_CLASS策略每个表都是单独的，没有并且各表的主键没有任何关系，所以不能使用GenerationType.AUTO或GenerationType.IDENTITY
      * 主键生成策略，可以使用GenerationType.TABLE。
      */
-
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+    @GeneratedValue(strategy = GenerationType.TABLE)
+    private int id;
+
     /**
      * 用户名
      */
-    private String username;
-
-
-    @ManyToOne(cascade = CascadeType.PERSIST)
-    private Address address;
-
+    @Column(name = "name")
+    private String name;
 
 
 }

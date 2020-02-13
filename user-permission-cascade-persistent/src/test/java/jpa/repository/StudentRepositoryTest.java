@@ -39,6 +39,49 @@ public class StudentRepositoryTest {
 
 
     @Test
+    public void saveAWithId() throws Exception {
+
+        User user = User.builder().username("zhangsan").build();
+        user.setId(8L);
+        userRepository.save(user);
+
+
+        System.out.println(user);
+    }
+
+    @Rollback(false)
+    @Test
+    public void saveAWithIdClearManager() throws Exception {
+
+        User user = User.builder().username("zhangsan11").build();
+        user.setId(1L);
+        userRepository.save(user);
+
+//        entityManager.clear();
+
+//        userRepository.save(user);
+
+        System.out.println(user);
+    }
+
+
+    @Rollback(false)
+    @Test
+    public void saveAWithIdManualInsert() throws Exception {
+
+        User user = User.builder().username("zhangsan888").build();
+        user.setId(190L);
+        userRepository.save(user);
+
+//        entityManager.clear();
+
+//        userRepository.save(user);
+
+        System.out.println(user);
+    }
+
+
+    @Test
     public void saveNoId() throws Exception {
 
         User user = User.builder().username("zhangsan").build();
@@ -46,7 +89,6 @@ public class StudentRepositoryTest {
 
         user.setAddress(address);
         userRepository.save(user);
-
 
 
         System.out.println(user);
@@ -63,39 +105,72 @@ public class StudentRepositoryTest {
         userRepository.save(user);
 
 
+        System.out.println(user);
+    }
+
+    @Test
+    public void saveAddressWithValidIdByFind() throws Exception {
+
+        Address address = createAndSaveAddress();
+//        entityManager.clear();
+
+        Address address1 = addressRepository.findOne(address.getId());
+
+        User user = User.builder().username("zhangsan").build();
+
+        user.setAddress(address1);
+
+        userRepository.save(user);
+
 
         System.out.println(user);
     }
 
     @Test
-    public void saveAddressWithValidId() throws Exception {
+    public void saveAddressWithValidIdBySave() throws Exception {
 
-        Address address = Address.builder().city("china").build();
+        Address address = createAndSaveAddress();
 
-        addressRepository.save(address);
+        User user = User.builder().username("zhangsan").build();
+
+        user.setAddress(address);
+
+        userRepository.save(user);
+
+
+        System.out.println(user);
+    }
+
+    @Test
+    public void saveAddressWithValidIdByManualInsertAndFind() throws Exception {
+
+        Address address = addressRepository.findOne(1L);
+
         User user = User.builder().username("zhangsan").build();
         user.setAddress(address);
 
         userRepository.save(user);
 
 
-
         System.out.println(user);
+    }
+
+    private Address createAndSaveAddress() {
+        Address address = Address.builder().city("china").build();
+        addressRepository.save(address);
+        return address;
     }
 
     @Test
     public void saveAddressWithValidIdAndInvalidIt() throws Exception {
 
-        Address address = Address.builder().city("china").build();
-
-        addressRepository.save(address);
+        Address address = createAndSaveAddress();
         entityManager.clear();
 
         User user = User.builder().username("zhangsan").build();
         user.setAddress(address);
 
         userRepository.save(user);
-
 
 
         System.out.println(user);
@@ -115,7 +190,6 @@ public class StudentRepositoryTest {
         user.setAddress(address);
 
         userRepository.save(user);
-
 
 
         System.out.println(user);
@@ -138,8 +212,6 @@ public class StudentRepositoryTest {
 
         System.out.println(user);
     }
-
-
 
 
 }

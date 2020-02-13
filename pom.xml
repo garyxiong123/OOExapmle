@@ -36,8 +36,8 @@
         <module>user-permission-relation-query</module>
         <module>user-permission-cascade-detach</module>
         <module>user-permission-cascade-persistent</module>
-
-
+        <module>abstract-multi-extend-override</module>
+        <module>entityGraph</module>
         <!--<module>user-jpa-mybatis</module>-->
 
     </modules>

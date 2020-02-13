@@ -1,7 +1,6 @@
 package jpa.repository;
 
-import jpa.domain.Address;
-import jpa.domain.User;
+import jpa.domain.Bird;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
@@ -10,6 +9,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
  * @author zlf
  * @since 1.0
  */
-public interface AddressRepository extends JpaRepository<Address, Long> {
+public interface BirdRepository extends JpaRepository<Bird, Integer> {
 
 }

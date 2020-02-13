@@ -19,10 +19,6 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
 
-/**
- * @author dongdong
- * @date 2018/9/27
- */
 @Component
 public class SpringContextHolder implements ApplicationContextAware {
 
