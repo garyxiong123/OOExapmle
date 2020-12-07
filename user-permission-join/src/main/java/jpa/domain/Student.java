@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.annotations.DiscriminatorOptions;
 
 import javax.persistence.Column;
 import javax.persistence.DiscriminatorValue;
@@ -19,6 +20,7 @@ import javax.persistence.Entity;
 @AllArgsConstructor
 @Data
 @Entity
+@DiscriminatorOptions(force=true)
 @DiscriminatorValue("Student")
 public class Student extends User {
 

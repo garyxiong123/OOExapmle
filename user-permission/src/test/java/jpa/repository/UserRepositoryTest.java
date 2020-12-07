@@ -12,6 +12,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import javax.persistence.EntityManager;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -27,6 +28,8 @@ public class UserRepositoryTest {
 
     @Autowired
     private UserRepository userRepository;
+    @Autowired
+    private EntityManager entityManager;
 
     @Rollback(false)
     @Test
@@ -35,6 +38,9 @@ public class UserRepositoryTest {
         Set<Role> roles = createRoles();
         user.setRoles(roles);
         userRepository.save(user);
+        System.out.println(entityManager);
+        entityManager.merge(user);
+        System.out.println("---");
     }
 
     @Test

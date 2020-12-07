@@ -21,6 +21,8 @@ import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
+import static javax.persistence.EnumType.STRING;
+
 /**
  * @author pqq
  * @version v1.0
@@ -41,7 +43,7 @@ import java.util.Set;
 @Builder
 @Table(name = "user")
 @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
-@DiscriminatorColumn(name = "DISCRIMINATOR", discriminatorType = DiscriminatorType.STRING, length = 30)
+@DiscriminatorColumn(name = "discriminator", discriminatorType = DiscriminatorType.STRING, length = 30)
 public class User {
 
     /**
@@ -51,6 +53,9 @@ public class User {
     @Id
 	@GeneratedValue(strategy = GenerationType.TABLE)
     private int id;
+
+    @Enumerated(STRING)
+    private UserType discriminator;
 
     /**
      * 用户名

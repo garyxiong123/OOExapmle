@@ -4,7 +4,9 @@ import com.google.common.collect.Sets;
 import jpa.domain.Permission;
 import jpa.domain.Role;
 import jpa.domain.User;
+import jpa.domain.UserType;
 import lombok.extern.slf4j.Slf4j;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,9 +34,12 @@ public class UserRepositoryTest {
     @Test
     public void saveTest() throws Exception {
         User user = User.builder().phone("1222").build();
+        user.setDiscriminator(UserType.Student);
         Set<Role> roles = createRoles();
         user.setRoles(roles);
         userRepository.save(user);
+        List<User> student = userRepository.findAllByDiscriminator(UserType.Student);
+        Assert.assertTrue(student!= null);
     }
 
     @Test

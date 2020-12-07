@@ -16,11 +16,9 @@ import javax.persistence.Embeddable;
 @Data
 @Builder
 @Embeddable
-public class Address {
+public class Location {
 
-    private String country;
-    private String province;
-    private String city;
-    private String detail;
-    private Location location;
+    private String name;
+    private String age;
+
 }

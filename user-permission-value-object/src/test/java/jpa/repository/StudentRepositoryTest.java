@@ -1,8 +1,6 @@
 package jpa.repository;
 
-import jpa.domain.Address;
-import jpa.domain.Home;
-import jpa.domain.User;
+import jpa.domain.*;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Before;
 import org.junit.Test;
@@ -36,7 +34,9 @@ public class StudentRepositoryTest {
     public void saveTest() throws Exception {
 
         User user = User.builder().email("sss").phone("2233").build();
-        user.setAddress(Address.builder().city("sdd").build());
+        Location4America location4America = new Location4America("gary","23","america");
+        Address address = Address.builder().city("sdd").location(location4America).build();
+        user.setAddress(address);
         user.setHome(Home.builder().homeAddress("ss").homeCity("dsdd").build());
 //        user.setCreateTime(LocalDateTime.now());
 //        user.setCreateAuthor("sddd");

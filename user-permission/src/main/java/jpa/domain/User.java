@@ -45,7 +45,8 @@ public class User {
     /**
      * 用户名
      */
-    @Column(name = "username")
+
+    @Column(columnDefinition = "varchar(6000) DEFAULT NULL COMMENT '支付回调消息'")
     private String username;
 
     /**
@@ -90,10 +91,9 @@ public class User {
     @Column(name = "status")
     private String status;
 
-    @ManyToMany(cascade = {CascadeType.PERSIST,CascadeType.MERGE})
+    @ManyToMany(cascade = {CascadeType.PERSIST, CascadeType.MERGE})
     @JoinTable(name = "user_role", joinColumns = @JoinColumn(name = "user_id", referencedColumnName = "id"), inverseJoinColumns = @JoinColumn(name = "role_id", referencedColumnName = "id"))
     private Set<Role> roles = new HashSet<>();
-
 
 
 }

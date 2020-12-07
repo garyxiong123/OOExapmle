@@ -48,6 +48,7 @@ public class Permission {
     /**
      * 权限名称
      */
+
     @Column(name = "permission_name")
     private String permissionName;
 
@@ -73,7 +74,8 @@ public class Permission {
     /**
      * 备注
      */
-    @Column(name = "remark")
+//    @Lob
+    @Column(columnDefinition = "COMMENT '支付返回信息'")
     private String remark;
 
     /**
