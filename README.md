@@ -7,3 +7,4 @@
 6. [Spring Data JPA(一)：@id @generatedvalue设置初始值](https://longfeizheng.github.io/2018/03/09/Spring-Data-JPA(%E4%B8%80)-%E8%AE%BE%E7%BD%AE@id-@generatedvalue%E7%9A%84%E5%88%9D%E5%A7%8B%E5%80%BC/)
 7. [Spring Data JPA(二)：SpringBoot集成H2](https://longfeizheng.github.io/2018/03/23/Spring-Data-JPA(%E4%BA%8C)-SpringBoot%E9%9B%86%E6%88%90H2/)
 # OOExapmle
+11
